@@ -76,7 +76,7 @@ var timer = setInterval(() => {
             location.href = "./game-over.html";
         }
     }
-    if (seconds === 50) {
+    if (seconds === 0) {
         location.href = "./win.html";
     }
 }, 1000);
